@@ -4,7 +4,7 @@ export class SendEmail implements ISendEmail {
   public from: string;
   public to: string;
   public subject: string;
-  public html: string
+  public html: string;
 
   constructor(opt: Partial<SendEmail>) {
     this.from = opt.from || '';

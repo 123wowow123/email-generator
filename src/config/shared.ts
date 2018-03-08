@@ -1,7 +1,7 @@
 const chronopinSupportEmail = 'support@chronopin.com';
-const signupTemplateUri = 'admin/new_signup.html'
-const signupTemplateSubject = 'A member has become part of the Chronopin family'
-
+const signupTemplateUri = 'admin/new_signup.html';
+const signupTemplateSubject =
+  'A member has become part of the Chronopin family';
 
 export default {
   mail: {
@@ -12,10 +12,10 @@ export default {
     sendSignupEmail: {
       from: chronopinSupportEmail,
       subject: signupTemplateSubject,
-      signupTemplateUri: signupTemplateUri
-    }
+      signupTemplateUri: signupTemplateUri,
+    },
   },
   azureStorage: {
-    azureConnectionString: process.env.AZURE_STORAGE_CONNECTION_STRING
+    azureConnectionString: process.env.AZURE_STORAGE_CONNECTION_STRING,
   },
 };

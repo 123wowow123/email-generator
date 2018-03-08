@@ -7,4 +7,4 @@ yarn-error.log*
 .nyc_output
 lib
 lib_test
-src/config/development.*
+# src/config/development.*
