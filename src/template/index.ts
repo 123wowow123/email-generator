@@ -3,7 +3,7 @@ import {
   BlobService,
   ServiceResponse,
 } from 'azure-storage/typings/azure-storage/azure-storage';
-import { EmailTemplate, IEmailTemplate, ITemplateOptions } from './../type';
+import { EmailTemplate, IEmailTemplate, ITemplateOptions } from '../type';
 import * as handlebars from 'handlebars';
 import * as _ from 'lodash';
 import * as azure from 'azure-storage';

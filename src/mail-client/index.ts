@@ -1,7 +1,7 @@
 import defaultConfig from '../config';
 import * as _ from 'lodash';
-import { Mail } from '../../src/mail';
-import { Template } from '../../src/template';
+import { Mail } from '../mail';
+import { Template } from '../template';
 import { IMailClientOption, SendEmail } from '../type';
 
 export class MailClient {
