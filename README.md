@@ -33,6 +33,14 @@ greeter.greet();
 2. Sign in to [coveralls](https://coveralls.io/) and activate the build for your project.
 3. Replace {{github-user-name}}/{{github-app-name}} with your repo details like: "ospatil/generator-node-typescript".
 
+## Safeguard Credentials
+> To ignore future updates to a file
+1. `git update-index --skip-worktree src/config/development.ts`
+> To allow them again with
+2. `git update-index --no-skip-worktree src/config/development.ts`
+> Get a list of files that are marked skipped with
+2. `git ls-files -v . | grep ^S`
+
 
 ## Debug Jest
 1. `node --inspect-brk node_modules/.bin/jest --runInBand` in Code Terminal

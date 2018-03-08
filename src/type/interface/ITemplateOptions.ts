@@ -1,3 +1,3 @@
 export interface ITemplateOptions {
-    connectionString: string;
-};
+  connectionString: string;
+}
